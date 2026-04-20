@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOSHKK IT GADGETS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0a1f44;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #123a7a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product button {
+            background-color: #0a1f44;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #123a7a;
+        }
+
+        footer {
+            background-color: #0a1f44;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>JOSHKK IT GADGETS</h1>
+    <p>Your trusted source for quality IT gadgets</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Best Deals on IT Gadgets</h2>
+    <p>Visit us in Nakyewa near Kampala University Luwero Campus</p>
+</section>
+
+<div class="container" id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>UGX 1,500,000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p>UGX 800,000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>UGX 150,000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Keyboard">
+            <h3>Keyboard</h3>
+            <p>UGX 100,000</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Location:</strong> Nakyewa, near Kampala University Luwero Campus</p>
+    <p><strong>Phone:</strong> +256 769693459 or +256 702471256</p>
+    <p><strong>Email:</strong> joshuakandwanaho9@gmail.com</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 JOSHKK IT GADGETS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
